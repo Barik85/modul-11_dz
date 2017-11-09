@@ -14,11 +14,11 @@
     <title>Home-Modul-11_DZ</title>
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/TravelAgency">
     <header id="top">
         <nav>
-            <ul>
-                <li><a href="#">home</a></li>
+            <ul >
+                <li><a itemprop="url" href="#">home</a></li>
                 <li class="about"><a href="#">about</a>
                     <ul class="drop-about">
                         <li><a href="#">agency</a></li>
@@ -27,7 +27,7 @@
                     </ul>
                 </li>
                 <li><a href="#">gallery</a></li>
-                <li><a href="#"><img src="../img/logo_journey.png" alt="logo"></a></li>
+                <li><a href="#"><img itemprop="logo" src="img/logo_journey.png" alt="JUORNEY"></a></li>
                 <li><a href="#">tours</a></li>
                 <li><a href="#">blog</a></li>
                 <li><a href="#">contacts</a></li>
@@ -39,22 +39,22 @@
         <div class="slider">
             <div class="slider-wrapper">
                 <div class="slide">
-                    <img src="../img/Slide1-boat.jpg" alt="boat">
+                    <img itemprop="image" src="img/Slide1-boat.jpg" alt="boat">
+                    <p class="white-heading" itemprop="name">THERE ARE PLENTY OF PLACES</p>
+                    <p class="blue-heading"> that are worth seeing</p>
+                </div>
+                <div class="slide">
+                    <img src="img/Slide2.jpg" alt="boat">
                     <p class="white-heading">THERE ARE PLENTY OF PLACES</p>
                     <p class="blue-heading"> that are worth seeing</p>
                 </div>
                 <div class="slide">
-                    <img src="../img/Slide2.jpg" alt="boat">
+                    <img itemprop="image" src="img/Slide3.jpg" alt="boat">
                     <p class="white-heading">THERE ARE PLENTY OF PLACES</p>
                     <p class="blue-heading"> that are worth seeing</p>
                 </div>
                 <div class="slide">
-                    <img src="../img/Slide3.jpg" alt="boat">
-                    <p class="white-heading">THERE ARE PLENTY OF PLACES</p>
-                    <p class="blue-heading"> that are worth seeing</p>
-                </div>
-                <div class="slide">
-                    <img src="../img/Slide4.jpg" alt="boat">
+                    <img itemprop="image" src="img/Slide4.jpg" alt="boat">
                     <p class="white-heading">THERE ARE PLENTY OF PLACES</p>
                     <p class="blue-heading"> that are worth seeing</p>
                 </div>
@@ -62,14 +62,14 @@
             </div>
 
             <figure class="navigation">
-                <img src="../img/left-arrow.svg" alt="" class="left-arrow">
-                <img class="right-arrow" src="../img/right-arrow.svg" alt="">
+                <img src="img/left-arrow.svg" alt="" class="left-arrow">
+                <img class="right-arrow" src="img/right-arrow.svg" alt="">
             </figure>
         </div>
         <h2>Top destinations</h2>
         <section class="top-destinations">
             <div class="destination-1">
-                <img src="../img/Venice.jpg" alt="">
+                <img itemprop="image" src="img/Venice.jpg" alt="">
                 <div class="description first">
                     <h5>Venice</h5>
                     <p>
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="destination-2">
-                <img src="../img/independence.jpg" alt="">
+                <img itemprop="image" src="img/independence.jpg" alt="">
                 <div class="description second">
                     <h5>New York</h5>
                     <p>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="destination-3">
-                <img src="../img/Paris.jpg" alt="">
+                <img itemprop="image" src="img/Paris.jpg" alt="">
                 <div class="description third">
                     <h5>Paris</h5>
                     <p>
@@ -131,8 +131,8 @@
         </ul>
         <div class="f-column4">
             <p class="f-heading">Contact us</p>
-            <p><a class="phone" href="tel:18002345678">1-800-234-5678</a></p>
-            <p>info@demolink.org</p>
+            <p itemprop="telephone"><a class="phone" href="tel:18002345678">1-800-234-5678</a></p>
+            <p itemprop="email">info@demolink.org</p>
         </div>
     </footer>
     <div class="under-footer">
