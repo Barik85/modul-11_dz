@@ -1,0 +1,17 @@
+body {
+    background-image: url("../img/bg.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (-web-kit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+        background-image: url("../img-retina/bg.jpg");
+    }
+}
+@import "../header/header.scss";
+@import "../menu/menu.scss";
+@import "../drop-down/drop-down.scss";
+@import "../white-wrapper/white-wrapper.scss";
+@import "../heading1/heading1.scss";
+@import "../gallery/gallery.scss";
+@import "../footer/footer.scss";
+@import "../under-footer/under-footer.scss"

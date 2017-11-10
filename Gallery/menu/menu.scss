@@ -1,0 +1,20 @@
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    .menu__item {
+        display: inline-block;
+        position: relative;
+        
+        }
+    }
+    .menu__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 27px;
+        &:hover{
+            color: #263555;
+    }
+}

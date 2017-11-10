@@ -1,0 +1,37 @@
+.drop-down {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    top: 35px;
+    right: -14%;
+    border-radius: 4px;
+    display: none;
+    .drop-down__link {
+        color: #6b7488;
+        text-decoration: none;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        &:hover {
+            color: #263555;
+        }
+    }
+    &::after {
+        content: " ";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 4px 6px 4px;
+        border-color: transparent transparent #FFFFFF transparent;
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        margin-left: -3px;
+    }
+}
+.drop-down__switch:hover .drop-down{
+    display: block;
+}

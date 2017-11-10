@@ -1,0 +1,38 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .gallery__item {
+        margin-bottom: 40px;
+        width: 30%;
+        position: relative;
+        &:hover {
+            filter: grayscale(100%);
+        }
+        &:hover::after {
+            content: " ";
+            background: url("../img/zoom-in.svg") no-repeat;
+            position: absolute;
+            background-size: contain;
+            width: 35px;
+            height: 35px;
+            left: 50%;
+            top: 50%;
+            margin: -17px 0px 0px -17px;
+        }
+        @media (max-width: 960px) {
+            width: 48%;
+        }
+        @media (max-width: 680px) {
+            width: 100%;
+        }
+    }
+    .gallery__link {
+        display: block;
+        width: 100%;
+    }
+    .gallery__image {
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,8 @@
+.white-wrapper {
+  background-color: #ffffff;
+  padding: 98px 60px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1024px;
+  margin: 0px auto 0px auto; }

@@ -1,0 +1,15 @@
+.gallery
+    mixin gallery-item (name)    
+         .gallery__item
+             a(href="img-retina/"+name).gallery__link
+                 img(srcset="img/"+name+", img-retina/"+name+" 2x" alt="image").gallery__image  
+    +gallery-item("Gallery_1.jpg")
+    +gallery-item("Gallery_2.jpg")
+    +gallery-item("Gallery_3.jpg")
+    +gallery-item("Gallery_4.jpg")
+    +gallery-item("Gallery_5.jpg")
+    +gallery-item("Gallery_6.jpg")
+    +gallery-item("Gallery_7.jpg")
+    +gallery-item("Gallery_8.jpg")
+    +gallery-item("Gallery_9.jpg")
+    

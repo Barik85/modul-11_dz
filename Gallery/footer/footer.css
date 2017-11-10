@@ -1,0 +1,21 @@
+.footer-block {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0px auto 0px auto;
+  background-color: #30455b; }
+
+.footer-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 700px;
+  margin: 10px auto 10px auto; }
+
+.footer-menu__link {
+  font-family: 'Open Sans Condensed', sans-serif; }

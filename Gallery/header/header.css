@@ -1,0 +1,10 @@
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu {
+  list-style-type: none; }
+  .menu .menu-item {
+    display: inline-block; }

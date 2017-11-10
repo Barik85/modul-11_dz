@@ -1,0 +1,34 @@
+.footer-block
+    .footer-box
+        .footer-box__column
+            ul.footer-menu
+                li
+                    a(href="#").footer-menu__link Faqs page
+                li
+                    a(href="#").footer-menu__link People say
+        .footer-box__column
+            ul.footer-menu
+                li
+                    a(href="#").footer-menu__link Useful links
+                li
+                    a(href="#").footer-menu__link Partners
+        .footer-box__column
+            ul.footer-menu
+                li
+                    a(href="#").footer-menu__link Insurance
+                li
+                    a(href="#").footer-menu__link Family travel
+        .footer-box__column.footer-contacts
+            p.footer-box__heading Contact us:
+            p.footer-box__text TEL:
+                a(href="tel:1-800-234-5678").footer-box__link  1-800-234-5678
+                br
+                a(href="mailto:info@demolink.org").footer-box__link  info@demolink.org
+    .footer-contacts_mobile
+        span.footer-box__heading Contact us:
+        include ../img/smartphone-call.svg
+        span.footer-box__text.phone TEL:#[a(href="tel:1-800-234-5678").footer-box__link  1-800-234-5678]
+        include ../img/letter.svg
+        span.footer-box__text.mail #[a(href="mailto:info@demolink.org").footer-box__link  info@demolink.org]
+    a(href="#header").to-top-button
+        .to-top-button__arrow
